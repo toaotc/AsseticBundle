@@ -1,0 +1,22 @@
+{
+	"name" : "toa/assetic-bundle",
+	"description" : "Assetic Bundle for Symfony2",
+	"type" : "symfony-bundle",
+	"authors" : [{
+			"name" : "Enrico Thies",
+			"email" : "enrico.thies@gmail.com"
+		}
+	],
+	"keywords": ["assets", "embed", "source"],
+	"homepage" : "https://github.com/toaotc/AsseticBundle",
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+		"symfony/assetic-bundle" : "~2.1"
+	},
+	"autoload" : {
+		"psr-4": { "Toa\\Bundle\\AsseticBundle\\": "" }
+	},
+	"minimum-stability" : "dev"
+}
